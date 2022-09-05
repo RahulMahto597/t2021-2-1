@@ -12,8 +12,8 @@ System.out.print("Series of numbers: ");
 while(i<=a)  
 {  
 //prints the odd number  
-System.out.print(i +" ");   
-i=i+2;  
+System.out.print((2 * i - 1) +" ");   
+i=i+1;  
 }     
 }  
 }  
