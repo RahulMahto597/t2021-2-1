@@ -13,16 +13,16 @@ if(a%2==0)
 {
 while(i<=a-1)  
 {  
-System.out.print(i +" ");   
-i=i+2;  
+System.out.print((2 * i - 1) +" ");   
+i=i+1;  
 }     
 } 
 else
 {
 while(i<=a)  
 {  
-System.out.print(i +" ");   
-i=i+2;  
+System.out.print((2 * i - 1) +" ");   
+i=i+1;  
 }    
 } 
 }
